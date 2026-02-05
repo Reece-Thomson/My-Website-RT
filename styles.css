@@ -82,9 +82,10 @@ html, body {
     margin: 0;
 }
 
-body {
-    border: 15px solid #a9e2f0;
-     
+@media (max-width: 600px) {
+  body {
+    border-width: 8px;
+  }
 }
 @media(max-width:768px){
 	.triText{
@@ -127,3 +128,14 @@ body {
     border-width: 8px;
   }
 }
+img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.table-wrap{
+  width: 100%;
+  overflow-x: auto;
+}
+
+
