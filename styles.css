@@ -121,5 +121,9 @@ body {
 	font-size: large;
 	font-weight: bold;
   	margin-top: 5px;
-
+}
+@media (max-width: 600px) {
+  body {
+    border-width: 8px;
+  }
 }
