@@ -137,5 +137,22 @@ img{
   width: 100%;
   overflow-x: auto;
 }
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.icon-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.icon-row img {
+  width: 120px;
+  max-width: 100%;
+}
+
 
 
